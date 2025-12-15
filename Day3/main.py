@@ -6,7 +6,6 @@ def max_joltage(bank: str, k: int) -> int:
             stack.pop()
             to_remove -= 1
         stack.append(digit)
-
     return int("".join(stack[:k]))
 def main():
     with open("input.in") as f:
